@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import BannerHome from "./components/BannerHome";
+import Categories from "./components/Categories";
+import ExploreProd from "./components/ExploreProd";
+import FollowUs from "./components/FollowUs";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import LatestProduct from "./components/LatestProduct";
+import Moisture from "./components/Moisture";
+import TopBar from "./components/TopBar";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <TopBar />
+            <Header />
+            <BannerHome />
+            <Moisture />
+            <Categories />
+            <LatestProduct />
+            <ExploreProd />
+            <FollowUs />
+            <Footer />
+        </>
+    );
 }
 
 export default App;

@@ -1,0 +1,66 @@
+.explore-prod{
+    background: #f4fafb!important;
+    padding: 3rem 0;
+    margin: 3rem 0;
+}
+
+.explore-prod-body {
+    background: #f4fafb!important;
+    /* padding: 3rem 0; */
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.exlore-prod-left {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-left: 0;
+    width: 60%;
+    padding-left: 0;
+}
+
+.left-container {
+    padding: 3rem 8px;
+    flex: 0 0 60%;
+    max-width: 60%;
+    width: 100%;
+}
+
+.left-container .title {
+    max-width: 20rem;
+    font-weight: 200;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.explore-banner--image {
+    background: url(https://commercejs-demo-store.netlify.app/images/explore-banner.png) 50%/cover;
+    padding-bottom: 115%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.explore-prod-right {
+    width: 40%;
+    position: absolute;
+    top: -136px;
+}
+
+@media screen and (max-width: 768px) {
+    .explore-prod-body {
+        flex-direction: column;
+    }
+
+    .explore-prod-right {
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+
+    .exlore-prod-left {
+        padding-top: 0;
+        width: 100%;
+    }
+}
